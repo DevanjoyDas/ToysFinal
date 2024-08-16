@@ -1,0 +1,16 @@
+.shop-page {
+  .main {
+    background-color: $theme-light-black;
+  }
+
+  .shop-toolbar {
+    border-radius: $border-radius-primary;
+    box-shadow: $box-shadow-primary;
+  }
+}
+
+@media(width < 768px){
+  .shop-page{
+    padding-top: 80px;
+  }
+}

@@ -1,0 +1,54 @@
+// (Login, SignUp, forgetPassword,resetPassword) => Styles
+.signup-form {
+  .checkbox {
+    margin-bottom: 20px;
+  }
+}
+@media(width<768px){
+  .signup-form{
+    padding-top: 80px
+  }
+}
+.signup-provider {
+  @include flex();
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+}
+
+.google-btn,
+.facebook-btn {
+  @include flex();
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  width: 300px;
+  max-width: 350px;
+  border: $border-primary;
+  border-radius: 8px;
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+    max-width: unset;
+  }
+
+  .btn-text {
+    margin-left: 5px;
+  }
+
+  .google-icon,
+  .facebook-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media(width<768px){
+  .login-form{
+    padding-top: 80px;
+  }
+}
