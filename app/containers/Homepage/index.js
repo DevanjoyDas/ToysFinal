@@ -25,30 +25,30 @@ class Homepage extends React.PureComponent {
                   Explore
                 </div></Link>
             </div>
-            <Link to="/">
+            <Link to="/product/teddy-bears">
               <div className="craft__image">
                 <div className="craft__image__content">
-                  <img src="./images/assets/craft-1.png" alt="Teddy Bear" />
-                  <p style={{ color: 'black' }}>Cute Teddy</p>
-                  <h4>$65.00</h4>
+                  <img src="https://res.cloudinary.com/dwcb3mhwq/image/upload/v1723792025/fluffy-toy-texture-close-up-min.png.png" alt="Teddy Bear" />
+                  <p style={{ color: 'black' }}>Teddy Bears</p>
+                  <h4>$55.00</h4>
                 </div>
               </div>
             </Link>
             <Link to="/product/transformer">
               <div className="craft__image">
                 <div className="craft__image__content">
-                  <img src="./images/assets/craft-2.png" alt="Robot" />
+                  <img src="./images/assets/craft-2.png" alt="Transformer" />
                   <p style={{ color: 'black' }}>Transformer</p>
                   <h4>$99.00</h4>
                 </div>
               </div>
             </Link>
-            <Link to="/">
+            <Link to="/product/rubix-cube">
               <div className="craft__image">
                 <div className="craft__image__content">
-                  <img src="./images/assets/craft-3.png" alt="Cars" />
-                  <p style={{ color: 'black' }}>Robo Car</p>
-                  <h4>$70.00</h4>
+                  <img src="https://res.cloudinary.com/dwcb3mhwq/image/upload/v1723793045/luke-jones-J5-IF5JjiM8-unsplash-removebg-preview%20%281%29.png.png" alt="Cube" />
+                  <p style={{ color: 'black' }}>Rubix Cube</p>
+                  <h4>$60.00</h4>
                 </div>
               </div>
             </Link>
